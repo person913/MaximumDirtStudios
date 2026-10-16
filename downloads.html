@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Downloads — Maximum Dirt Studios</title>
+  <meta name="description" content="Downloads for other programs and projects from Maximum Dirt Studios">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="index.html">Maximum Dirt</a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html#games">Games</a>
+        <a href="downloads.html" aria-current="page">Downloads</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="index.html#about">About</a>
+      </div>
+      <div class="nav-cta">
+        <a class="btn small" href="index.html#contact">Get in touch</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main" class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Downloads</span>
+        <h2>Other programs & projects</h2>
+        <p>Official builds, source code, and release notes for our side projects.</p>
+      </div>
+
+      <div class="game-list" style="gap:12px">
+        <!-- Repeat this block for each downloadable project -->
+        <article class="game" style="grid-template-columns:1fr">
+          <div class="game-body">
+            <div class="game-top">
+              <h3 class="game-title">Project Name — Other Program</h3>
+              <div class="game-tags"><span class="tag">Utility</span><span class="tag">Windows</span><span class="tag">v1.2.0</span></div>
+            </div>
+            <p class="game-desc">Short description: what it does and why you might want it.</p>
+
+            <div class="game-actions">
+              <!-- Prefer Release links; example below points to a GitHub release asset -->
+              <a class="btn small" href="https://github.com/person913/Project/releases/download/v1.2.0/Project-windows-1.2.0.zip" target="_blank" rel="noopener">Download (Windows)</a>
+
+              <!-- Source -->
+              <a class="btn small secondary" href="https://github.com/person913/Project" target="_blank" rel="noopener">Source</a>
+            </div>
+
+            <p class="game-note" style="margin-top:12px;color:var(--muted);font-size:13px">
+              SHA256: <code>e3b0c44298fc1c149afbf4c8996fb924...</code> • Size: 24 MB • Released: 2026‑10‑16 • <a href="https://github.com/person913/Project/releases/tag/v1.2.0" target="_blank" rel="noopener">Release notes</a>
+            </p>
+          </div>
+        </article>
+
+        <!-- Placeholder example for items not yet uploaded -->
+        <article class="game" style="grid-template-columns:1fr">
+          <div class="game-body">
+            <div class="game-top">
+              <h3 class="game-title">Another Project (coming soon)</h3>
+              <div class="game-tags"><span class="tag">Tool</span><span class="tag">Mac</span><span class="tag">TBD</span></div>
+            </div>
+            <p class="game-desc">Short description here.</p>
+            <div class="game-actions">
+              <a class="btn small" href="downloads/placeholder.zip" aria-disabled="true" tabindex="-1">Download</a>
+              <a class="btn small secondary" href="#" aria-disabled="true" tabindex="-1">Source</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site">
+    <div class="footer-row">
+      <span>© <span id="year">2026</span> Maximum Dirt Studios</span>
+      <a href="mailto:contact.maximumdirt.studios@gmail.com">contact.maximumdirt.studios@gmail.com</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
